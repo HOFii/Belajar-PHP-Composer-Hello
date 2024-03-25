@@ -1,0 +1,19 @@
+{
+    "name": "gustiakabar/belajar-php-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Gustiakabar\\BelajarPhpComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gusti Alifiraqsha",
+            "email": "alifiraqshaakbar@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
